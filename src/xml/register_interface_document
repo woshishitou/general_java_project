@@ -1,0 +1,71 @@
+
+"initial”: [
+	  {
+"id": "1",
+"registerBusinessType": "A00101",
+"registerPeriod": "2",
+"certificateNo": "234532453245",
+"modifyCode": "67896789",
+"archiveNumber": "ABZ34256543",
+"debtorDescription": "XXX",
+"beneficiaryDescription": "XXX",
+"registerStatus": "2",
+"reRegisterUser": "XXX",
+"reRegisterId": "1",
+"registerUser": "XXX",
+"registerTime": "2019-01-01",
+"agreementName": "XXX",
+"agreementOriginalAttachmentId": "324532",
+"batchUniqueIdentification": "",
+"feedbackFileId": ""
+}
+],
+
+
+"change”: [
+	  {
+"initialCertificateNo": "23456342",
+"authPerson": "XXX",
+"amendItem": "1",
+"initialRegisterId": "2",
+}
+],
+
+
+"extension”: [
+	  {
+"extendPeriod": "2",
+}
+],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
