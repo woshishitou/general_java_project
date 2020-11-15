@@ -10,7 +10,8 @@ public class RedisProducer {
 
 
     public static void main(String[] args) {
-        // RedisUtils.intertToMQ();
+        Long index = RedisUtils.intertToMQ("list_test", "6", "7", "8");
+        System.out.println("index: " + index);
     }
 
 
