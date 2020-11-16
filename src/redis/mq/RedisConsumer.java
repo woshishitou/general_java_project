@@ -16,7 +16,7 @@ public class RedisConsumer {
      */
     public static void main(String[] args) {
         int index  = 0;
-        String result = RedisUtils.getFromMQ("list_test", index);
+        String result = RedisUtils.getFromMQ("list_test");
         System.out.println("result: " + result);
     }
 

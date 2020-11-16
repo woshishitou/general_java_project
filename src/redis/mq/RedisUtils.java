@@ -2,8 +2,6 @@ package redis.mq;
 
 import redis.clients.jedis.Jedis;
 
-import java.time.temporal.JulianFields;
-
 /**
  * @author zlb
  * @description:
@@ -39,12 +37,13 @@ class RedisUtils {
     }
 
     /**
-     * @Description: 消息队列-获取数据
+     * @Description: 消息队列-获取并删除数据
      * @author zlb
      * @date 2020/11/15 17:44
      */
-    protected static String getFromMQ(String key, int index){
-        String result = jedis.lindex(key, index);
+    protected static String getFromMQ(String key){
+        // TODO: 2020/11/15 应该使用rpop命令
+        String result = jedis.rpop(key);
         return result;
     }
 
